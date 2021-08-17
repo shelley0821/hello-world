@@ -1,0 +1,16 @@
+ > pane[Class="AutoHideWindowContentControl"][Id="PART_HwndHost"] > pane[Class="ViewPresenter"][Id="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"] > pane[Class="GenericPane"][Name="Solution Explorer - Folder View"] > tree[Class="TreeView"][Name="Solution Explorer - Folder View"] > treeitem[Class="TreeViewItem"][Name="CMakeProject1 (C:\Users\v-jiaoz\source\repos\CMakeProject1)"] > treeitem[Class="TreeViewItem"][Name="CMakeProject1"]
+
+ > pane[Class="DockRoot"] > pane[Class="ToolWindowTabGroupContainer"][Id="TabGroup|ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}|ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"] > tab[Class="ToolWindowTabGroup"][Id="TabGroup|ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}|ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"] > tabitem[Class="TabItem"][Id="TAB_ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"] > pane[Class="ViewPresenter"][Id="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"] > pane[Class="GenericPane"][Name="Solution Explorer - Folder View"] > tree[Class="TreeView"][Name="Solution Explorer - Folder View"] > treeitem[Class="TreeViewItem"][Name="CMakeProject1 (C:\Users\v-jiaoz\source\repos\CMakeProject1)"] > treeitem[Class="TreeViewItem"][Name="CMakeProject1"]
+
+
+
+ > pane[Class="AutoHideWindowContentControl"] > pane[Class="ViewPresenter"] > pane[Class="GenericPane"][Name="Solution Explorer - Folder View"] > tree[Class="TreeView"][Name="Solution Explorer - Folder View"] > treeitem[Class="TreeViewItem"][Name="CMakeProject1 (C:\Users\v-jiaoz\source\repos\CMakeProject1)"] > treeitem[Class="TreeViewItem"][Name="CMakeProject1"]
+
+ > pane[Class="DockRoot"]  pane[Class="ViewPresenter"]> pane[Class="GenericPane"][Name="Solution Explorer - Folder View"] > tree[Class="TreeView"][Name="Solution Explorer - Folder View"] > treeitem[Class="TreeViewItem"][Name="CMakeProject1 (C:\Users\v-jiaoz\source\repos\CMakeProject1)"] > treeitem[Class="TreeViewItem"][Name="CMakeProject1"]
+
+ > pane[Class="AutoHideWindowContentControl"][Id="PART_HwndHost"] > pane[Class="ViewPresenter"][Id="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"] > titlebar[Class="ToolWindowTitleBar"][Name="Solution Explorer - Folder View"] > titlebar[Class="DragUndockHeaderTitleBar"][Id="DragHeader"] > button[Class="Button"][Id="AutoHideButton"]
+
+到pane[Class="ViewPresenter"]之前的父元素都删掉
+加了个判断，如果solution pane没显示出来，去点击下
+
+
